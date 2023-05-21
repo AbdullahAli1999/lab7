@@ -6,8 +6,8 @@ let searchQuere = document.getElementById("query");
 let searchResults = document.getElementById("results");
 
 
-var url = "";
-var apiKey = ""
+var url = "https://api.giphy.com/v1/gifs/search";
+var apiKey = "???"
 
 btnXHR.addEventListener("click", function () {
     // clear previous search results
